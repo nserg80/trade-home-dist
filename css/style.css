@@ -1777,7 +1777,7 @@ body::after {
 
 .banner {
   padding-top: 10.75rem;
-  background: url("../img/about/bg.svg") 0 0/cover no-repeat;
+  background: url("../img/about/bg.webp") 0 0/cover no-repeat;
   position: relative;
 }
 
@@ -1791,17 +1791,6 @@ body::after {
   .banner {
     padding-bottom: calc(3.375rem + 1.1875 * (100vw - 20rem) / 51.875);
   }
-}
-
-.banner:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
 }
 
 .banner__container {
